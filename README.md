@@ -1,2 +1,3 @@
 # boatlifestyle
-recreation of boat-lifestyle.com || a codechef task
+• recreation of boat-lifestyle.com 
+• for codechef-vitv
