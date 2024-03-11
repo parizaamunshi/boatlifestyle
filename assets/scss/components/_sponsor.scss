@@ -1,0 +1,14 @@
+/*=============== SPONSOR ===============*/
+.sponsor{
+    &__img{
+        width: 100px;
+        height: auto;
+        margin-right: 10px;
+    }
+    &__container{
+        grid-template-columns: repeat(auto-fit, minmax1100px, 1fr);
+        row-gap: 5rem;
+        justify-items: center;
+        align-items: center;
+    }
+}
