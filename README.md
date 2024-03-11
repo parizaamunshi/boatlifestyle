@@ -1,3 +1,3 @@
 # boatlifestyle
-• recreation of boat-lifestyle.com 
+recreation of boat-lifestyle.com 
 • for codechef-vitv
