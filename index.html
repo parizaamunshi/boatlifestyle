@@ -30,13 +30,16 @@
                 <div class="nav__menu" id="nav-menu">
                     <ul class="nav__list">
                         <li class="nav__item">
-                            <a href="#categories" class="nav__link active-link">Categories</a>
+                            <a href="#best" class="nav__link active-link">Bestsellers</a>
                         </li>
                         <li class="nav__item">
-                            <a href="#specs" class="nav__link">Specs</a>
+                            <a href="#daily" class="nav__link">Daily Deals</a>
                         </li>
                         <li class="nav__item">
-                            <a href="#case" class="nav__link">Case</a>
+                            <a href="#categories" class="nav__link">Categories</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#lifestyle" class="nav__link">Lifestyle</a>
                         </li>
                         <li class="nav__item">
                             <a href="#products" class="nav__link">Products</a>
@@ -54,35 +57,36 @@
             </nav>
         </header>
 
+        
         <main class="main">
-            <!--=============== categories ===============-->
-            <section class="categories section" id="categories">
-                <div class="categories__container container grid">
+            <!--=============== HOME ===============-->
+            <section class="categories section" id="home">
+                <div class="categories__container home grid">
                     <div id="imageCarousel" class="carousel slide" data-ride="carousel" data-interval="2500">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
                                 <a href="#">
-                                    <img src="assets/img/categories1.png" class="d-block w-100" alt="Image 1">
+                                    <img src="assets/img/home1.png" class="d-block w-100" alt="Image 1">
                                 </a>
                             </div>
                             <div class="carousel-item">
                                 <a href="#">
-                                    <img src="assets/img/categories2.png" class="d-block w-100" alt="Image 2">
+                                    <img src="assets/img/home2.png" class="d-block w-100" alt="Image 2">
                                 </a>
                             </div>
                             <div class="carousel-item">
                                 <a href="#">
-                                    <img src="assets/img/categories3.png" class="d-block w-100" alt="Image 3">
+                                    <img src="assets/img/home3.png" class="d-block w-100" alt="Image 3">
                                 </a>
                             </div>
                             <div class="carousel-item">
                                 <a href="#">
-                                    <img src="assets/img/categories4.png" class="d-block w-100" alt="Image 4">
+                                    <img src="assets/img/home4.png" class="d-block w-100" alt="Image 4">
                                 </a>
                             </div>
                             <div class="carousel-item">
                                 <a href="#">
-                                    <img src="assets/img/categories5.png" class="d-block w-100" alt="Image 5">
+                                    <img src="assets/img/home5.png" class="d-block w-100" alt="Image 5">
                                 </a>
                             </div>
                         </div>
@@ -96,159 +100,121 @@
                     $('#imageCarousel').carousel();
                 });
             </script>
-            
+           
             <!--=============== BESTSELLERS ===============-->
-            <section class="best section">
-                <div class="best__container container grid">
-                    <img src="assets/img/vid1.gif" alt="" class="best__img">
-                    <img src="assets/img/vid2.gif" alt="" class="best__img">
-                    <img src="assets/img/vid3.gif" alt="" class="best__img">
+            <section class="sponsor section" id="best">
+                <div class="categories__data">
+                    <div class="categories__header">
+                        <h2 class="categories__subtitle">Explore Bestsellers</h2>
+                    </div>
+                </div>
+                
+                <div class="sponsor__container container grid">
+                    <a href="#">
+                        <img src="assets/img/vid1.gif" alt="" class="sponsor__img" data-sr-id="6" style="width: 300px; height: auto;">
+                        <h3 class="products__title">Smartwatches</h3>
+                    </a>
+                    <a href="#">
+                        <img src="assets/img/vid2.gif" alt="" class="sponsor__img" data-sr-id="6" style="width: 300px; height: auto;">
+                        <h3 class="products__title">Wireless Earbuds</h3>
+                    </a>
+                    <a href="#">
+                        <img src="assets/img/vid3.gif" alt="" class="sponsor__img" data-sr-id="6" style="width: 300px; height: auto;">
+                        <h3 class="products__title">Headphones</h3>
+                    </a>
                 </div>
             </section>
-
-            <!--=============== SPECS ===============-->
-            <section class="specs section grid" id="specs">
-                <h2 class="section__title section__title-gradient">Specs</h2>
-
-                <div class="specs__container container grid">
-                    <div class="specs__content grid">
-                        <div class="specs__data">
-                            <i class="ri-bluetooth-line specs__icon"></i>
-                            <h3 class="specs__title">Connection</h3>
-                            <span class="specs__subtitle">Bluetooth v5.2</span>
-                        </div>
-    
-                        <div class="specs__data">
-                            <i class="ri-battery-charge-line specs__icon"></i>
-                            <h3 class="specs__title">Battery</h3>
-                            <span class="specs__subtitle">Duration 40h</span>
-                        </div>
-    
-                        <div class="specs__data">
-                            <i class="ri-plug-line specs__icon"></i>
-                            <h3 class="specs__title">Load</h3>
-                            <span class="specs__subtitle">Fast charge 4.2-AAC</span>
-                        </div>
-    
-                        <div class="specs__data">
-                            <i class="ri-mic-line specs__icon"></i>
-                            <h3 class="specs__title">Microphone</h3>
-                            <span class="specs__subtitle">Supports Apple Siri <br> and Google</span>
-                        </div>
+             
+            <!--=============== DAILY ===============-->
+            <section class="sponsor section" id="daily">
+                <div class="categories__data">
+                    <div class="categories__header">
+                        <h2 class="categories__subtitle">Daily Deals</h2>
                     </div>
                     
-                    <div>
-                        <img src="assets/img/specs.png" alt="" class="specs__img">
-                    </div>
+                </div>
+                <div class="sponsor__container container grid">
+                    <a href="https://www.boat-lifestyle.com/products/nirvana-ion-bluetooth-wireless-earbuds">
+                        <img src="assets/img/daily1.png" alt="" class="sponsor__img" data-sr-id="6" style="width: 300px; height: auto;">
+                    </a>
+                    <a href="https://www.boat-lifestyle.com/products/airdopes-131">
+                        <img src="assets/img/daily2.png" alt="" class="sponsor__img" data-sr-id="6" style="width: 300px; height: auto;">
+                    </a>
+                    <a href="https://www.boat-lifestyle.com/products/airdopes-161">
+                        <img src="assets/img/daily3.png" alt="" class="sponsor__img" data-sr-id="6" style="width: 300px; height: auto;">
+                    </a>
+                    <a href="https://www.boat-lifestyle.com/products/rockerz-255-max-large-playback-neckband">
+                        <img src="assets/img/daily4.png" alt="" class="sponsor__img" data-sr-id="6" style="width: 300px; height: auto;">
+                    </a>
                 </div>
             </section>
-
-            <!--=============== CASE ===============-->
-            <section class="case section grid" id="case">
-                <h2 class="section__title section__title-gradient">Case</h2>
-
-                <div class="case__container container grid">
-                    <div>
-                        <img src="assets/img/case.png" alt="" class="case__img">
-                    </div>
-
-                    <div class="case__data">
-                        <p class="case__description">With a comfortable and adaptable case so that you can 
-                            store it whenever you want, and keep your durability forever.
-                        </p>
-                        <a href="#" class="button button--flex">
-                            <i class="ri-information-line button__icon"></i> More info
-                        </a>
+            
+            <!--=============== CATEGORIES ===============-->
+            <section class="sponsor section" id="categories">
+                <div class="categories__data">
+                    <div class="categories__header">
+                        <h2 class="categories__subtitle">Shop by Categories</h2>
                     </div>
                 </div>
+                
+                <div class="sponsor__container container grid">
+                    <a href="https://www.boat-lifestyle.com/collections/true-wireless-earbuds">
+                        <img src="assets/img/cat1.png" alt="" class="sponsor__img" data-sr-id="6" style="width: 300px; height: auto;">
+                        <h3 class="products__title">Wireless Earbuds</h3>
+                    </a>
+                    <a href="https://www.boat-lifestyle.com/collections/wireless-earphones">
+                        <img src="assets/img/cat2.png" alt="" class="sponsor__img" data-sr-id="6" style="width: 300px; height: auto;">
+                        <h3 class="products__title">Neckbands</h3>
+                    </a>
+                    <a href="https://www.boat-lifestyle.com/collections/smart-watches">
+                        <img src="assets/img/cat3.png" alt="" class="sponsor__img" data-sr-id="6" style="width: 300px; height: auto;">
+                        <h3 class="products__title">Smart Watches</h3>
+                    </a>
+                    <a href="https://www.boat-lifestyle.com/collections/rockerz-headphones">
+                        <img src="assets/img/cat4.png" alt="" class="sponsor__img" data-sr-id="6" style="width: 300px; height: auto;">
+                        <h3 class="products__title">Wireless Headphones</h3>
+                    </a>
+                    <a href="https://www.boat-lifestyle.com/collections/wired-headphones">
+                        <img src="assets/img/cat5.png" alt="" class="sponsor__img" data-sr-id="6" style="width: 300px; height: auto;">
+                        <h3 class="products__title">Wired Headphones</h3>
+                    </a>
+                    <a href="https://www.boat-lifestyle.com/collections/home-audio">
+                        <img src="assets/img/cat7.png" alt="" class="sponsor__img" data-sr-id="6" style="width: 300px; height: auto;">
+                        <h3 class="products__title">Soundbars</h3>
+                    </a>
+                    <a href="https://www.boat-lifestyle.com/collections/immortal-gaming">
+                        <img src="assets/img/cat8.png" alt="" class="sponsor__img" data-sr-id="6" style="width: 300px; height: auto;">
+                        <h3 class="products__title">Gaming Headphones</h3>
+                    </a>
+                    <a href="https://www.boat-lifestyle.com/collections/wireless-speakers">
+                        <img src="assets/img/cat9.png" alt="" class="sponsor__img" data-sr-id="6" style="width: 300px; height: auto;">
+                        <h3 class="products__title">Party Speakers</h3>
+                    </a>
+                </div>
             </section>
-
-            <!--=============== DISCOUNT ===============-->
-            <section class="discount section">
-                <div class="discount__container container grid">
-                    <div class="discount__animate">
-                        <h2 class="discount__title">Immerse yourself in <br> your music</h2>
-                        <p class="discount__description">Get it now, up to 50% off.</p>
-                        <a href="#" class="button button--flex">
-                            <i class="ri-shopping-bag-line button__icon"></i> Shop Now
-                        </a>
+             
+            <!--=============== LIFESTYLE ===============-->
+            <section class="sponsor section" id="lifestyle">
+                <div class="categories__data">
+                    <div class="categories__header">
+                        <h2 class="categories__subtitle">Shop by Lifestyle</h2>
                     </div>
-
-                    <img src="assets/img/discount.png" alt="" class="discount__img">
+                </div>
+                <div class="sponsor__container container grid">
+                    <a href="https://www.boat-lifestyle.com/collections/fitness-freak">
+                        <img src="assets/img/lifestyle1.png" alt="" class="sponsor__img" data-sr-id="6" style="width: 300px; height: auto; margin-right: 10px;">
+                    </a>
+                    <a href="https://www.boat-lifestyle.com/collections/party-animals">
+                        <img src="assets/img/lifestyle2.png" alt="" class="sponsor__img" data-sr-id="6" style="width: 300px; height: auto; margin-right: 10px;">
+                    </a>
+                    <a href="https://www.boat-lifestyle.com/collections/workaholic">
+                        <img src="assets/img/lifestyle3.png" alt="" class="sponsor__img" data-sr-id="6" style="width: 300px; height: auto; margin-right: 10px;">
+                    </a>
+                    <a href="https://www.boat-lifestyle.com/collections/audiophille">
+                        <img src="assets/img/lifestyle4.png" alt="" class="sponsor__img" data-sr-id="6" style="width: 300px; height: auto; margin-right: 10px;">
+                    </a>
                 </div>
             </section>
-
-            <!--=============== PRODUCTS ===============-->
-            <section class="products section" id="products">
-                <h2 class="section__title section__title-gradient products__line">
-                    Choose <br> Your Style
-                </h2>
-
-                <div class="products__container container grid">
-                    <article class="products__card">
-                        <div class="products__content">
-                            <img src="assets/img/product1.png" alt="" class="products__img">
-    
-                            <h3 class="products__title">Black</h3>
-                            <span class="products__price">$249</span>
-    
-                            <button class="button button--flex products__button">
-                                <i class="ri-shopping-bag-line button__icon"></i>
-                            </button>
-                        </div>
-                    </article>
-                    <article class="products__card">
-                        <div class="products__content">
-                            <img src="assets/img/product2.png" alt="" class="products__img">
-    
-                            <h3 class="products__title">Red Black</h3>
-                            <span class="products__price">$249</span>
-    
-                            <button class="button button--flex products__button">
-                                <i class="ri-shopping-bag-line button__icon"></i>
-                            </button>
-                        </div>
-                    </article>
-                    <article class="products__card">
-                        <div class="products__content">
-                            <img src="assets/img/product3.png" alt="" class="products__img">
-    
-                            <h3 class="products__title">Night Black</h3>
-                            <span class="products__price">$249</span>
-    
-                            <button class="button button--flex products__button">
-                                <i class="ri-shopping-bag-line button__icon"></i>
-                            </button>
-                        </div>
-                    </article>
-                    <article class="products__card">
-                        <div class="products__content">
-                            <img src="assets/img/product4.png" alt="" class="products__img">
-    
-                            <h3 class="products__title">Blue</h3>
-                            <span class="products__price">$249</span>
-    
-                            <button class="button button--flex products__button">
-                                <i class="ri-shopping-bag-line button__icon"></i>
-                            </button>
-                        </div>
-                    </article>
-
-                    <article class="products__card">
-                        <div class="products__content">
-                            <img src="assets/img/product5.png" alt="" class="products__img">
-    
-                            <h3 class="products__title">Twilight gray</h3>
-                            <span class="products__price">$249</span>
-    
-                            <button class="button button--flex products__button">
-                                <i class="ri-shopping-bag-line button__icon"></i>
-                            </button>
-                        </div>
-                    </article>
-                </div>
-            </section>
-        </main>
 
         <!--=============== FOOTER ===============-->
         <footer class="footer section">
@@ -256,45 +222,82 @@
                 <a href="#" class="footer__logo">
                     <img src="assets/img/logo.png" alt="">
                 </a>
-    
-                <div class="footer__content">
-                    <h3 class="footer__title">Products</h3>
-    
-                    <ul class="footer__links">
-                        <li>
-                            <a href="#" class="footer__link">Headphones</a>
-                        </li>
-                        <li>
-                            <a href="#" class="footer__link">Earphones</a>
-                        </li>
-                        <li>
-                            <a href="#" class="footer__link">Earbuds</a>
-                        </li>
-                        <li>
-                            <a href="#" class="footer__link">Accesories</a>
-                        </li>
-                    </ul>
+
+                <div id="footer_item_1" class="footer__content">
+                    <p class="footer title">
+                        Shop
+                    </p>
+                    <div class="footer__item-content hidden-pocket hidden-phone">
+                    <ul class="linklist list--unstyled" role="list"><li class="linklist__item">
+                            <a href="/collections/true-wireless-earbuds" class="link--faded">True Wireless Earbuds</a>
+                        </li><li class="linklist__item">
+                            <a href="https://www.boat-lifestyle.com/collections/bluetooth-wireless-headphones" class="link--faded">Wireless Headphones</a>
+                        </li><li class="linklist__item">
+                            <a href="/collections/wired-headphones" class="link--faded">Wired Headphones</a>
+                        </li><li class="linklist__item">
+                            <a href="/collections/wireless-speakers" class="link--faded">Wireless Speakers</a>
+                        </li><li class="linklist__item">
+                            <a href="/collections/home-audio" class="link--faded">Home Audio</a>
+                        </li><li class="linklist__item">
+                            <a href="/collections/mobile-accessories" class="link--faded">Mobile Accessories</a>
+                        </li><li class="linklist__item">
+                            <a href="/collections/smart-watches" class="link--faded">Smart Watches</a>
+                        </li><li class="linklist__item">
+                            <a href="/collections/trebel-for-women" class="link--faded">TRebel</a>
+                        </li><li class="linklist__item">
+                            <a href="/collections/misfit-by-boat" class="link--faded">Misfit Trimmers</a>
+                        </li><li class="linklist__item">
+                            <a href="https://www.boat-lifestyle.com/pages/refer-and-earn" class="link--faded">Refer &amp; Earn</a>
+                        </li></ul>
+                    </div>
                 </div>
-    
-                <div class="footer__content">
-                    <h3 class="footer__title">Support</h3>
-    
-                    <ul class="footer__links">
-                        <li>
-                            <a href="#" class="footer__link">Product help</a>
-                        </li>
-                        <li>
-                            <a href="#" class="footer__link">Register</a>
-                        </li>
-                        <li>
-                            <a href="#" class="footer__link">Updates</a>
-                        </li>
-                        <li>
-                            <a href="#" class="footer__link">Provides</a>
-                        </li>
-                    </ul>
+                <div id="footer_item_2" class="footer__content">
+                    <p class="footer title">
+                        Help
+                    </p>
+                    <div class="footer__item-content hidden-pocket hidden-phone">
+                    <ul class="linklist list--unstyled" role="list"><li class="linklist__item">
+                            <a href="https://dtc.boat-lifestyle.com/track" class="link--faded">Track Your Order</a>
+                        </li><li class="linklist__item">
+                            <a href="http://support.boat-lifestyle.com/" class="link--faded">Warranty &amp; Support</a>
+                        </li><li class="linklist__item">
+                            <a href="/pages/return-policy" class="link--faded">Return Policy</a>
+                        </li><li class="linklist__item">
+                            <a href="/pages/service-center-list" class="link--faded">Service Centers</a>
+                        </li><li class="linklist__item">
+                            <a href="/pages/bulk-orders" class="link--faded">Bulk Orders</a>
+                        </li><li class="linklist__item">
+                            <a href="/pages/frequently-asked-questions" class="link--faded">FAQs</a>
+                        </li><li class="linklist__item">
+                            <a href="/pages/why-buy-direct" class="link--faded">Why Buy Direct</a>
+                        </li></ul>
+                    </div>
                 </div>
-    
+                
+                <div id="footer_item_3" class="footer__content">
+                    <p class="footer title">
+                        Company
+                    </p>
+                    <div class="footer__item-content hidden-pocket hidden-phone">
+                        <ul class="linklist list--unstyled" role="list"><li class="linklist__item">
+                            <a href="/pages/who-are-we" class="link--faded">About boAt</a>
+                            </li><li class="linklist__item">
+                            <a href="https://www.boat-lifestyle.com/blogs/news" class="link--faded">News</a>
+                            </li><li class="linklist__item">
+                            <a href="/pages/boat-blogs" class="link--faded">Read Our Blog</a>
+                            </li><li class="linklist__item">
+                            <a href="mailto:Careers@imaginemarketingindia.com?subject=Hi boAthead" class="link--faded">Careers</a>
+                            </li><li class="linklist__item">
+                            <a href="/pages/security" class="link--faded">Security</a>
+                            </li><li class="linklist__item">
+                            <a href="/pages/investor-relations" class="link--faded">Investor Relations</a>
+                            </li><li class="linklist__item">
+                            <a href="https://www.boat-lifestyle.com/pages/social-responsibility" class="link--faded">Social Responsibility</a>
+                            </li><li class="linklist__item">
+                            <a href="https://www.boat-lifestyle.com/pages/warranty" class="link--faded">Warranty Policy</a>
+                            </li></ul>
+                    </div>
+                </div>
                 <div class="footer__content">
                     <form action="" class="footer__form">
                         <input type="email" placeholder="Email" class="footer__input">
@@ -302,7 +305,7 @@
                             <i class="ri-send-plane-line button__icon"></i> Subscribe
                         </button>
                     </form>
-    
+
                     <div class="footer__social">
                         <a href="https://www.facebook.com/" target="_blank" class="footer__social-link">
                             <i class="ri-facebook-fill"></i>
@@ -318,7 +321,7 @@
             </div>
 
             <p class="footer__copy">
-                <a href="https://www.youtube.com/c/Bedimcode/" target="_blank" class="footer__copy-link">&#169; Bedimcode. All right reserved</a>
+                <a href="https://github.com/parizaamunshi/boatlifestyle" target="_blank" class="footer__copy-link">&#169; recreated by Parizaa, 2024</a>
             </p>
         </footer>
 
